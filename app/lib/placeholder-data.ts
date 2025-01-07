@@ -144,4 +144,12 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export { users, customers, invoices, revenue };
+const feed = [
+  { lastFeedTime: '10:00pm', side: 'L' },
+  { lastFeedTime: '12:00pm', side: 'R' },
+  { lastFeedTime: '2:00pm', side: 'L' },
+  { lastFeedTime: '4:00pm', side: 'R' },
+  { lastFeedTime: '6:00pm', side: 'L' }
+]
+
+export { users, customers, invoices, revenue, feed };
